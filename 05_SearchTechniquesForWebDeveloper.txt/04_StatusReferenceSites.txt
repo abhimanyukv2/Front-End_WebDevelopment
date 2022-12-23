@@ -1,0 +1,7 @@
+* Status Reference Sites - These are sites collecting data about the web to provide statistics about the current status of the platform.
+
+1. CanIUse.com
+2. Httparchive.org
+3. Web Almanac
+
+* Status reference sites provide important background information on the work of building websites and apps.

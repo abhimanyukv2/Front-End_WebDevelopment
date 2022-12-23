@@ -1,0 +1,24 @@
+* Standards Setting Bodies Define How Things Should Work
+    1. Platform resources document how implementations work
+    2. Community resources have information on real-world usages of technologies
+
+* Community resources are for the most part created and written by developers who are working with the technologies in real- world projects.
+
+* Resources
+    1. Online magazines
+    2. Knowledge sharing platforms
+    3. Application specific websites
+    4. Community chats
+
+* For hands-on, in-depth tutorials, examples, and case studies, community resources are usually the way to go.
+
+1. gridbyexample.com
+2. zachleat.com
+3. alistapart.com
+4. smashingmagazine.com
+5. css-tricks.com
+6. tympanus.net
+7. stackoverflow.com
+8. momentjs.com
+
+* On knowledge sharing platforms, remember sometimes the top answers are not the best answers.

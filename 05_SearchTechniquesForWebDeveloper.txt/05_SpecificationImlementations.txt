@@ -1,0 +1,13 @@
+* Specifications - Verbose and unambiguous description of how a feature should behave when encountered on the web
+
+* World Wide Web Consortium (W3C) - Defines standards Specifications to create a single source of truth for how web technologies should be implemented.
+
+* Implementation - For each feature specification, browser vwndors can choose to implement it or not
+
+* Paving the Cowpath - A principle meaning when a lot of developers start using a feature in a specific way the browser "Pave the Cowpath" by implementing that feature more broadly.
+
+* Browsers implement specifications, but not all specifications are implemented.
+
+* MDN Web Docs - focus on implementation
+
+* Simple Rule of Thumb - Specifications are for browser manufacturers. Implementation documentation is for everyone else

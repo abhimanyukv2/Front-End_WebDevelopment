@@ -1,0 +1,14 @@
+* When standards change rapidly, there's often significant lag between new feature being availabe, and new documentation
+
+* Requires a Good Understanding of How the Industry Is Strutured
+    1. Who makes decisions
+    2. How decisions are communicated
+    3. How information is shared and by whom
+    4. What type of varification process are used
+
+1. W3C and TC39
+2. Platform resources
+3. Status monitors
+4. Community resources
+
+* Greatest accuracy of information at the top; greatest volume of information at bottom

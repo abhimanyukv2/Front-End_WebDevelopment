@@ -1,0 +1,28 @@
+* The best place to find accurate information is from the creators of the technology, standards or definition.
+
+* Creators of Standards and Definitions
+    1. Web platform - W3C
+    2. JavaScript - TC39
+    3. React - ReactJS.org
+    4. WordPress - WordPress.org
+    5. Gatsby - Gatsby.com
+
+* The people who built the technology are the ultimate source of the truth for the technology
+
+* What Creators of Technology Typically Offer
+    1. Extensive documentation
+    2. Practical guides and examples
+    3. Support and user forms
+    4. Outreach programs
+
+* The first place to look for and information is usually the website for the core project.
+
+* Standards-setting bodies and application development Communities focus mainly on documenting the core functionalities and application of their tools.
+
+* What appears to be internally inconsistent or contradictory information is often the result of documentation for many different version of the same tool.
+
+* The best place to find up-to-date and accurate information about anything is to go directly to the source.
+
+1. Check publication dates
+2. Version number
+3. Look for indicators to make sure information is up to date

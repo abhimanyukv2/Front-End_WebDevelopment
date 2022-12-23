@@ -1,0 +1,9 @@
+* Web - A unified implimentation of a set of standards defined by various groups, all working together for a common purpose: information sharing
+
+* Implementers for the standards are browser vendors and internet service providers.
+
+* Implementers work together to provide extensive platform resources. Resources are typically independnt entities maintained by different companies. 
+
+* The best example of a platform resource is the MDN Web Docs.
+
+* Any time you are lookiing for information about a core web technology use MDN Web Docs.
