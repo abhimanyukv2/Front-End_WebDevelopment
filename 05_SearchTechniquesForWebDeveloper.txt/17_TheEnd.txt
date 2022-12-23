@@ -1,0 +1,4 @@
+* Keep in Mind
+    1. Figure out where the information belongs on the pyramid, and make sure you chake higher levels for accuracy
+    2. Take some time to really learn the advanced features built into the search system yoou use
+    3. Use community resource liberally, and make yourself part of the community

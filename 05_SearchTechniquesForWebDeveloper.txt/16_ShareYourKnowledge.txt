@@ -1,0 +1,19 @@
+* Whenever you find a solution to a problem, document it on the internet so someone else can get right to the answer.
+
+* The bet practical application documetation is often writtten by random developers, who are on the ground working with the technologies on a day-to-day basis.
+
+* How the Web Evolves
+    1. Observing the work that people are doing
+    2. Shaping the technology to match that work and make it easier
+
+* Even as an absolute begineer, you can make meaningful contributions.
+
+* Two Reasons to Document
+    1. Writing makes you think about it in a different way and helps you solidify the learning for yourself.
+    2. Documenting allows it to becoome a resource for someone in the future.
+
+* Documenting your learning and putting it onto the web, you contribute to the large body of information.
+
+* If what you learn is of direct relevance to something like an open-source project, sharing it directly with the community makes you a bona fide contributor to the project itself.
+
+* Document your questions and answers you find and share them with the world.

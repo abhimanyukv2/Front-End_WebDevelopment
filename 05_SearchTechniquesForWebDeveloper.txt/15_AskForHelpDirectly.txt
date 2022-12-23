@@ -1,0 +1,16 @@
+* If you publish your code on GitHub, it's also a great place to get help.
+
+* Advantagees of GitHub
+    1. Allows anyone to upload code
+    2. Anyone else to contribute to that code
+
+1. Started a project on GitHub.
+2. Others contributed fixes and features.
+3. Mentioned the lead developer in an issue.
+
+* Example - You post up some code, or file an issue, or start a discussions, and someone else picks up wherre you left off and makes it their mission to solve it.
+
+* Asking the leader of a project for help on GitHub is not dengerous
+* The worst thing that can happen is they ignore your request
+
+* Extending that question into the community forums, others see what yoou're doing, have discussions about it, and even contribute.
