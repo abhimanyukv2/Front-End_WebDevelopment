@@ -1,0 +1,19 @@
+* Google is the best tool for throwing out a wide net and captring the information we're looking for.
+
+* Use the advance feature built into the Google search engine for the best search results.
+    1. To find an exact match use quotes.
+    2. If you have a search term that may result in irrelevant info, you can exclude content using a minus (-) symbol.
+    3. if you have a search from specific website use "site: "
+    4. If you want to find something similar to a specific technology, you can use the related keyword.
+    5. If you're searching for multiple things, you can use the OR operator.
+        1. intitle:
+        2. allintitle:
+        3. intext: 
+        4. allintext:
+        5. inurl: 
+        6. allinurl:
+
+* Add the site or thechnologu to the end of a search to narrow it down - typically, "mdn".
+* Add entire error massages inside quotation marks to find specific hits.
+* Replace some of the quoted error with asterisks to indicate wildcards.
+* Type out verbose search string when you're looking for something specific.

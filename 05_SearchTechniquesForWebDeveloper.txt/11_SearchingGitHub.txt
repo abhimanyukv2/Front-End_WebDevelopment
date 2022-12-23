@@ -1,0 +1,16 @@
+* GitHub is a fantastic resource for finding answers to pressing coding questions.
+
+* Ways to Use GitHub for Answer
+    1. Search for repositories that provide solutions
+    2. Search within repositories for code examples
+    3. Search issues, pull request, and discussions
+
+* github.com/search/advance
+
+* Use specific searches on GitHub to find real-world examples for the feature being used in practice.
+
+* To Find Explanation of an Error - Search issues, pull request, and discussions, because if you run into an error, there's a good chance someone else did before you.
+
+* Search Tip for Errors - Append site:github.com and just search for the error.
+
+* GitHub is an amazing resource, and becomes even more of a resource once you realize how you can use search to really dig into the data.

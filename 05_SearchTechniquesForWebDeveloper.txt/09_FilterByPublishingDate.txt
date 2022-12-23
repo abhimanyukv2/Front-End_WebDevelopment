@@ -1,0 +1,7 @@
+* When searching the web for information about web technologies, pay attention to when the information was published.
+
+* The quickest and most straightforward way of doing this is by filtering your search result based on publishing date.
+
+* For newer features, restrict the search to the past year, or an even shorter range.
+
+* Paying close attention to when a question was asked and when top answer was provided can help you avoid getting outdated wrong answer.

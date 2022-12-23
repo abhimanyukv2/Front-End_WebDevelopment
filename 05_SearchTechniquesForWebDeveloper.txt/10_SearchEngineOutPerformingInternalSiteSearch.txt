@@ -1,0 +1,1 @@
+* Doing a site-specific search using Google renders far more accurate result than using the internal search system of the site itself.
