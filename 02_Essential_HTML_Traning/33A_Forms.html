@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="space.css">
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+    <title>Form Basic</title>
+</head>
+<body>
+    <main>
+        <h1>Our Forms</h1>
+        <form action="received.html" method="get">
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text" value="abhimanyu">
+
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" required placeholder="me@example.com">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+
+            <label for="search">Search</label>
+            <input type="search" name="search" id="search" placeholder="search">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone">
+            
+            <label for="textarea">Text Area</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+
+            <label for="file">File</label>
+            <input type="file" name="file" id="file" accept="image/*" multiple>
+
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" name="simplecheckbox" id="checkbox" value="The Checkbox is checked" checked>
+
+            <label for="selectlist">Choose one</label>
+            <select name="selectlist" id="selectlist">
+                <option>First Option</option>
+                <option>Second Choice</option>
+                <option >Third Thing</option>
+            </select>
+
+            <fieldset>
+                <legend>Checkboxes in a fieldset</legend>
+                <input type="checkbox" name="checkboxlist" id="thischeck" checked>
+                <label for="thischeck">This</label>
+                <input type="checkbox" name="checkboxlist" id="orcheck" checked>
+                <label for="orcheck">And/Or</label>
+                <input type="checkbox" name="checkboxlist" id="thatcheck" checked>
+                <label for="thatcheck">That</label>
+            </fieldset>
+
+            <button type="submit">Sign up</button>
+        </form>
+    </main>
+</body>
+</html>

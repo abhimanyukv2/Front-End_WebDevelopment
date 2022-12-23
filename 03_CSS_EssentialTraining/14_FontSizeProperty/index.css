@@ -1,0 +1,15 @@
+html {
+    font-size: 2rem;
+    font-size: 30px;
+}
+
+.parent {
+    font-size: 2em;
+    font-size: 60px;
+}
+
+.child {
+    font-size: 2em;
+    font-size: 0.5em;
+    font-size: 1rem;
+}
