@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing JavaScript</title>
+    <style>
+        button {
+            background: #f2c33c;
+            font-size: 20px;
+            color: #000000;
+            padding: 10px;
+            border-radius: 10px;
+            border: 3px solid #808080;
+        }
+        button:hover {
+            background: #7cc272;
+            color: #333333;
+        }
+        .hidden {
+            display: none;
+        }
+        .showing {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #509fcb;
+            color: #000000;
+            width: 400px;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+    <button class="clickme">Click Me</button>
+
+    <section class="showing">
+        <h1>Look what I am Learning!</h1>
+
+        <p>When clicked, a butoon will reveal that text.</p>
+
+        <p>Click again, and text will hide away!</p>
+    </section>
+    <script>
+        document.querySelector(".clickme").addEventListener("click", () => {
+            document.querySelectorAll(".showing").forEach((item) => {
+                item.classList.toggle("hidden");
+            });
+        });
+    </script>
+    
+</body>
+
+</html>
