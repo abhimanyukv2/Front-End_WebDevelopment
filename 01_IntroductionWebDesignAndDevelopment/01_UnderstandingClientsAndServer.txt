@@ -1,0 +1,15 @@
+* Servers
+    1. Serve up files to requesting computers
+    2. Somtimes run on hardwere
+    3. Sometimes run of softwere
+
+* Web Server softwere
+    1. Open Source: Apache, NGINX
+    2. Closed source: Oracle, Microsoft, IBM
+
+* Clients
+    1. Displays web pages
+    2. Web browsers: Firefox, Chrome, Safari, Edge
+    3. Mobile web browsers
+
+    The client requests files from the server.

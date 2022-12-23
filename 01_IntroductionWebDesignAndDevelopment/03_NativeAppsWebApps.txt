@@ -1,0 +1,14 @@
+* Native App
+    1. Designed for a specific OS 
+    2. Coded using programming languages
+    3. Requires compiling
+    4. More expensive to build and maintain
+    5. Run offline
+    6. Use common interface elements
+    7. Intuitive and familiar
+
+
+* Web Apps
+    1. Cheaper to build and maintain
+    2. Accessible to everyone
+    3. Don't work offline

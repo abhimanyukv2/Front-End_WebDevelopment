@@ -1,0 +1,16 @@
+* Cloud-Based Email
+    1. Store your email on a server
+    2. Allows access from any device
+    3. Emails looks the same
+
+* Cloud Service
+    1. Dropbox
+    2. Box
+    3. Google Drive
+    4. iCloud
+    5. OneDrive
+
+* Web app example: Ebay
+    1. Browser, buy, or sell product
+    2. Connected to the internet
+    3. Using a web browser

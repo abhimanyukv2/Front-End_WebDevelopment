@@ -1,0 +1,14 @@
+* Illustrator
+    1. Used for illustrations and logos
+    2. Vector files
+    3. Scalable Vector Graphics (SVG) format
+
+* Photoshop
+    1. Edit phtographs
+    2. Lay out webpages
+    3. Raster files
+    4. GIF, PNG, or JPG format
+
+1. affinity.serif.com
+2. figma.com
+3. canva.com

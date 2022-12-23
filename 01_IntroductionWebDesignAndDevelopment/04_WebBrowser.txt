@@ -1,0 +1,7 @@
+* World Wide Web Consortium (W3C)
+    Writees HTML, CSS,and JavaScript standards which specify how the code should function
+
+* Web developers learn which browsers support which HTML elements, CSS properties, and JavaScript methods.
+
+1. caniuse.com
+2. mdn.dev

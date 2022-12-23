@@ -1,0 +1,23 @@
+* User Experience (UX) Professional
+    1. Generalist
+    2. Specialist
+
+* UX Generalists
+    1. Work with small businesses, start-ups, nonprofits
+    2. Work through entire UX process
+    3. Identify goals
+    4. Define audience
+
+* UX Specialists
+    1. Focus on one UX area
+    2. Intrested in classification, terms, organization
+    3. Some focus on user research, user testing, branding, content design, etc
+
+    UX professionals rarely write code, but should understand the coding process.
+
+* Prototyping Softwere
+    1. Figma
+    2. Sketch
+    3. Adobe XD
+    4. InVIsion
+    5. Balsamiq
