@@ -1,0 +1,12 @@
+* Ecommerce Platform
+    1. Shopify and BigCommerce
+    2. No-cde solution to sell online
+    3. Access to repots and integration
+    4. Offer many payment methods
+    5. Set up your own merchant account
+
+1. Offer many shipment methods
+2. Decide on overnight, two day, or ground
+3. Choose your shipping companies
+
+* Make sure your inventory management system integrates with your shopping cart.

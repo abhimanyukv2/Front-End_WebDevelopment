@@ -1,0 +1,9 @@
+* Native Apps
+    1. Opertaing-system specific
+    2. Do not run on desktop
+
+* bubble.io
+* appgyver.com
+* glideapps.com
+* adalo.com
+* appsheet.com

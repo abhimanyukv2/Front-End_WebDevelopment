@@ -1,0 +1,17 @@
+* Joomla!, WordPress, and Drupal: Then
+    1. Released in early 2000s
+    2. Manged large amounts of content
+    3. Easily set up a blog
+    4. Edit website without HTML knowledge
+
+* wordpress.org/plugins
+
+* Joomla!, WordPress, and Drupal: Now
+    1. Dated interface
+    2. Difficult to use
+    3. Missing critical feature and functionality
+
+1. Preinstalled SaaS at wordpress.com
+2. Limited flexibility and configuration
+3. Fewer plug-in and theme choices
+4. Fewer code customizations

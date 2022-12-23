@@ -1,0 +1,9 @@
+1. google.com/sheets
+
+2. airtable.com
+    * Integrate with code
+    * Integrate with no-code solutions
+    * Use hande-coded interface to integrate
+    * Use a no-code tool to integrate
+
+    Build custom dashboards with Airtable
