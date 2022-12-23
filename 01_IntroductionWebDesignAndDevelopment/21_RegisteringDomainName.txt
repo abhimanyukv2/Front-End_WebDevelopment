@@ -1,0 +1,13 @@
+* Good Domain Names
+    1. Easy to say
+    2. Easy to spell
+    3. Not too long
+    4. Memorable
+
+* Domain names may also be asociated with countries.
+* To purchase to a good domain name registrar.
+
+* Making Changes to the DNS
+    1. Follow the web host an domain name registrar instructions
+    2. Changes may take upto 48 hours to apply
+    3. When you type your domain name in, your website will be pulled up

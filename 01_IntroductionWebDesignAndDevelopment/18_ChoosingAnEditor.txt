@@ -1,0 +1,21 @@
+* Visual Studio Code
+    1. Free
+    2. Runs on Windows, Mac, and Linux
+    3. Can run directly in a web browser
+
+    vscode.dev
+
+* Atom.io
+    1. Free
+    2. Runs on Windows, Mac, and Linux
+    3. Open source and highly customizable
+
+* brackets.io
+    1. Formerly an editor from Adobe.
+    2. Runs on Mac or Windows
+    3. Open-source project
+
+* sublimetext.com
+    1. Used to be very popular
+    2. One-tiime fee of $80
+    3. Runs on Mac, PC, and Linux

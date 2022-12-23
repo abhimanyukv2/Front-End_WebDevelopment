@@ -1,0 +1,10 @@
+1. pages.github.com
+
+* Shared Hosting
+    Web hosting where one web server has thousands of web hosting accounts located on it.
+
+* A virtual privet, or VPS, will have fewer account per server, may be only a dozen or less.
+
+* Cloud Hosting
+    1. Scales with your needs in the moment
+    2. Pricing is generally tied yo usage
