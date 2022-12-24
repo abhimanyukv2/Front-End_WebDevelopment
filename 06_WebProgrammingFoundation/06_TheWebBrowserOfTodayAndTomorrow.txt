@@ -1,0 +1,10 @@
+* Tools
+    1. Web Browser
+
+    2. Code editor
+        1. Syntax Highlighting
+        2. Code Hinting
+        3. Project Management
+
+    3. Browser Developer tools
+        Built into every morden browser, they allow you to see the code, network conditions, and other properties of the current document running in the browser.

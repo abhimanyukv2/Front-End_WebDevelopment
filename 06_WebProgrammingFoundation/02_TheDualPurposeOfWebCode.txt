@@ -1,0 +1,16 @@
+* Two Audiences
+    1. Humans
+    2. Technology
+
+* Writing Structure
+    1. Heading
+    2. Paragraph
+    3. Another Paragraph
+    4. Image with caption
+    5. Paragraph
+    6. Subheading
+
+1. Nature
+2. Properties
+3. Purpose
+4. Relationships

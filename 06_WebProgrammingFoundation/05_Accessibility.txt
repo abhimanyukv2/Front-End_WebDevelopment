@@ -1,0 +1,17 @@
+1. Aeshetics
+2. Accessibility
+3. Interactivity
+
+* Content should be accessible.
+
+* Game Plane
+    1. Make it accessible
+    2. MAke it fancy
+    3. Don't brake accessibility
+
+* Day to Day
+    1. Start with compliant HTML
+    2. Run accessibility checks.
+    3. Fix issues before moving forward
+    4. Bring in coonsultents.
+    5. Make a maintenance plan.

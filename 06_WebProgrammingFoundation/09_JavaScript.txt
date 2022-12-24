@@ -1,0 +1,9 @@
+* JavaScript
+    Scripting language for the browser, which is used to interact with HTML, CSS and events within the browser viewport.
+
+* The Evolution of JavaScript
+    1. Traditional - Manipulating HTML and CSS in the browser viewport to add interactivity
+    2. Morden - Running in the browser or on a server to generate new documents and views
+
+* JavaScript in a Nutshell
+    Runs smal programs in the browser that interact with the DOM by targeting DOM nodes and reacting to browser events.

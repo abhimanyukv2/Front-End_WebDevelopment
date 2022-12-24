@@ -1,0 +1,17 @@
+* Events
+    Action or occurances that happen in the system you are programming, which the system tells you about so you can respond to them in some way if desired.
+
+* Event Handling - Detecting and responding to an event using JavaScript:
+    1. Identify a DOM node to monitor
+    2. Identify the event you want to respond to
+    3. Create a function to run when the event is triggered
+
+* All Together Now!
+    1. Events <> HTML(Describe the document and its content) > DOM
+    2. Events <> DOM(Is created from the HTML elements) > JavaScript
+    3. Events <> JavaScript(Interacts with the DOM to make changes/ add feature to the HTML) > CSS
+    4. Events <> CSS(Applies presentational style to the DOM elements)
+
+    5. Events(Are triggered by the user, the browser, or something else and make changes to HTML, CSS and JavaScript) <> HTML, DOM, JavaScript, CSS
+
+* browsersync.io

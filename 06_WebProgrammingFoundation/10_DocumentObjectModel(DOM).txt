@@ -1,0 +1,2 @@
+* Document Object Model (DOM)
+    Structural representation of the elements in the document and their relationships

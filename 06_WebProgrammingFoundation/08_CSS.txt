@@ -1,0 +1,14 @@
+* Cascading Style Sheet (CSS)
+    Presentational markup proving instructions on how elements in a document should be styled in the viewport
+
+* Separation of Concerns
+    1. HTML - Content: the semantic markup and meaningful content of a document
+    2. CSS - Presentation: what the contents of the document look like in the browser viewport
+
+* Browser have default predefined CSS rules applied to standard elements.
+* Any CSS rule or property you define will override these browser rules.
+
+* The Cascsde
+    Rules are applied from the top of the stylesheet down with the most weight given to the rules farthest down
+*Style Inheritance
+    Descendant of an element inherit its style

@@ -1,0 +1,11 @@
+* Web Metadata - Nonvisual data added to a web document to provide further information about purpose and function.
+
+* HTML <head> Section
+    1. <meta> elemnts describing the character set and viewport declarations
+    2. <title> elemnt
+    3. <link> elements pointing to stylesheets and so on
+    4. <script> elemts pointing to or declaring JavaScript
+
+* Element-Level Meta
+    1. Schema and microformates
+    2. ARIA (Accessible Rich Internet Application) attributes

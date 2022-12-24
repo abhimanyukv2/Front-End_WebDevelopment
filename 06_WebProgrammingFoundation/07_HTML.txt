@@ -1,0 +1,9 @@
+* Language
+    1. HTML for content
+    2. CSS for style
+    3. JavaScript for interactivity
+
+* Who Writes the HTML
+    1. Human + code editor
+    2. HUman + server-side app
+    3. Human + JS framework
