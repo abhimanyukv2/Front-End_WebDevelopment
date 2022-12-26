@@ -1,0 +1,11 @@
+1. Navigates window to URL location
+    <a href="/about">ABOUT</a>
+2. Engages phone capability on device to call provided number
+    <a href="tel:123456">CALL</a>
+3. Engages email capability on device to start new email to provided address
+    <A href="mailto:abc@xyz.com">MAIL</a>
+4. Triggers download of specified asset 
+    <A href="/menu.pdf" download>DOWNLOAD</a>
+5. Controls what window the link is opened in anti-pattern - not recommended
+    <A href="/menu.pdf" target="_blank>MENU</a>
+6. Feel free to change color, size fonts, etc. Keep the undeline for clear communication

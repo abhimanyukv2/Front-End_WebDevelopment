@@ -1,0 +1,24 @@
+<figure>
+    <img
+        src="store.jpg" 
+        alt="The Pickled Cheese store, front view." /*Alternative text provided if the image cannot be displayed*/
+        >
+    <img
+        src="store.jpg" 
+        alt="The Pickled Cheese store, front view."
+        >
+    <img
+        src="store.jpg" 
+        alt="The Pickled Cheese store, front view."
+        >
+    <figcaption> /* Caption displayed by visual browsers and read out by screen readers*/
+        Photos of the original Pickled Cheese store when it first opened in 1814. 
+    </figcaption>
+</figure>
+
+* When wrapping an image in a container, use a figure (that's what it's for)
+
+* <figure> Global CSS Reset
+    figure {
+        margin: 0;
+    }

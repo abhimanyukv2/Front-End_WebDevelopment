@@ -1,0 +1,16 @@
+* Screen Reader-Only CSS Rule
+    .sr-only {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        width: 1px;
+        margin:-1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+    }
+    <a href="health.html>
+        Continue reading <span class="sr-only">pickled cheese is healthy.</span>
+    </a>
+
+* Place all screen reader text either before or after visual content

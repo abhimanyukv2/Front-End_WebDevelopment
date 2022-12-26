@@ -1,0 +1,11 @@
+* Component-based JavaScript front-end framework encourage us to build custom components to do what existing element already do.
+
+* The evolving web platform tries to meet our needs with native browser-level tools
+
+* Three Questions to Lead the Way
+    1. Is there an existing element that does what I need?
+    2. Can I extend an existing element to do what I need?
+    3. Can I use existing elements as part of my component?
+
+1. Lack of awareness 
+2. Problems introduced through iteration

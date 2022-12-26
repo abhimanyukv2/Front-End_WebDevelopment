@@ -1,0 +1,33 @@
+* Buttons don't do anything out of the box
+* Button behavior is added by hooking them to browser events or using JavaScript
+* Links are often used in place of buttons
+* A common reason is buttons look like button, which is not what the design calls for
+
+* Removing Button Styles in CSS
+    button {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+        overflow: visible;
+        text-transform: none;
+        -webkit-appearance: button;
+        border: 0;
+        background: none;
+    }
+    button:hover {
+        /* Mouse behavior like link */
+        cursor: pointer;
+    }
+    button:hover,
+    button:focus,
+    button:active {
+        background: none;
+        border-color: inherit;
+        border-radius: 0;
+    }
+
+* Working with the <button> Element
+    1. Create global styles for all buttons to match design
+    2. Use classes to apply custom style where necessary
+    3. Modify and build on default styling rather than full reset

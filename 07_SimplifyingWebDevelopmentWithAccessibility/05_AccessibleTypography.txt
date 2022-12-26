@@ -1,0 +1,12 @@
+* Accessible Typography Principle
+    1. Large font sizes (within reason) are preferred
+        * Default size of 16px is OK
+        * 18px or 20px is better
+    2. Avoid Complex fonts for anything but decoration
+        * Handwritteng and decorative fonts look good
+        * Are difficult to read
+    3. Avoid "fancy" fonts with unusual features
+        * Fonts woth stylish ligaments are difficult to read
+        * Nonstandard glyphs are difficult to read
+    4. Keep max sentence length between 70 and  80 characters
+        * Max-width: 70ch; and you are done!

@@ -1,0 +1,25 @@
+* Use SVGs for icons. They can be made accessible, and they don't interfere with assistive technologies the way icon fonts do.
+
+* Link with SVG Icon, V1
+    <a href="https://linkedin.com" aria-label="Go to LinkedIn">
+        <svg aria-hidden="true" focusable="false (_)>
+            <!-- sbg content -->
+        </svg>
+    </a>
+
+* Link with SVG Icon, V2
+    <a href="https://linkedin.com">
+        <svg aria-hidden="true" focusable="false (_)>
+            <!-- sbg content -->
+        </svg>
+        <span class="visually-hidden">Go to LinkedIn</span>
+    </a>
+
+* Hiding Text from Screen Readers
+    <button>
+        <svg aria-hidden="true" focusable="false (_)>
+            <!-- sbg content -->
+        </svg>
+        Print <span aria-hidden"true> this page</span>
+        <span class="visually-hidden">Pickled Cheese Recipes.</span>
+    </button>

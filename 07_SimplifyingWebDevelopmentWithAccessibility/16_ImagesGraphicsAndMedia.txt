@@ -1,0 +1,12 @@
+1. Static Assets - Images and graphics
+    i. Information      ii. Links/Button     iii. Decoration 
+2. Dynamic Assets - Video and audio
+    i. Information      ii. Decoration 
+
+* Video and audio are not always accessible.
+* They require alternative methods for communicating the information within.
+
+* Transcript for Video and Audio
+    1. Make information accessible to anyone through text
+    2. Make information searchable, copyable, and auto-translatable
+    3. Make information indexable for search engines

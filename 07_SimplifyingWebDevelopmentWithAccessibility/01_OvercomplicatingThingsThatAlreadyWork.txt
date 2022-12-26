@@ -1,0 +1,5 @@
+1. Overcamplicating Things
+2. Complexity Obscures Simplicity - Many ways of doing things makes things confusing.
+3. Accessibility - The core promise of the web
+
+* Many of our habits, examples, and best practices rely on building custom solutions to problems the web platform has already solved with standard-based elements.

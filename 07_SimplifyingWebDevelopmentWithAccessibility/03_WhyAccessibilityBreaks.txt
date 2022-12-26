@@ -1,0 +1,12 @@
+* A web platform is accessible
+* Accessibility issues are introduced during design and development.
+* Accessibility is the job!
+
+* Lack of Awareness
+    1. Accessibility was long considered an optional feature
+    2. Historical lack of available education and best practice examples
+    3. Accessibility awareness and education is improving
+
+* Accessibility Mindset
+    1. What is the functionality of the things I'm trying to build?
+    2. What existing elements serve this functionality?

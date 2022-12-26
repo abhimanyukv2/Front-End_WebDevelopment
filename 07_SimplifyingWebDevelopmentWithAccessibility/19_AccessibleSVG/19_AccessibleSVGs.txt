@@ -1,0 +1,18 @@
+* Benefits of <svg>
+    1. Can be displayed as regular <img>
+    2. Can be incoporated in HTML document
+    3. Can be defined once and used many times
+    4. Can be styled using CSS
+    5. Can be made accessible
+
+Accessible <svg> Example
+    <svg role="img" 
+        aria-labelledby="icontitle icondesc" (_)> /*Tells screen reader to read out contents of specified elements*/
+        <title id="icontitle">Pickling Solution</title>
+        <desc id="icondesc">
+            The secret to good pickled cheese is good pickling.
+        </desc>
+        <!-- svg content -->
+    </svg>
+
+* lnkd.in/gYe57p5

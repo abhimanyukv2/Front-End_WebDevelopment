@@ -1,0 +1,17 @@
+* Visually Hiden Content
+    1. Content hidden from the visual browser without being hidden from screen readers
+    2. Screen readers read out what's visible on the screen. IF somethings is set to "display:none" or other wise hidden, screen readers will not read this content.
+
+* Screen Reader-Only CSS Hack
+    .sr-only {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        width: 1px;
+        margin:-1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+    }
+
+* <a href="#" aria-hidden="true">

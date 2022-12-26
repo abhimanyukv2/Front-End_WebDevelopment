@@ -1,0 +1,7 @@
+* Accessibility Testing Basics
+
+* Make accessibility testing part of your regular development work
+
+* Accessibility Testing Practice
+    1. Keyboard navigation
+    2. Screen reader

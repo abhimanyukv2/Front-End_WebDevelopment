@@ -1,0 +1,36 @@
+<img
+    src="/store.jpg"  -> URL for replaced element (Required)
+    alt="The Pickled Cheese store."  -> Alternative text provided if the image cannot be display (Required)
+    width="415"  OPtional (but useful)
+    height="283"  OPtional (but useful)
+    srcset="(_)"  OPtional (but useful)
+    sizes="(_)"  OPtional (but useful)
+    loading="lazy"  OPtional (but useful)
+    >
+
+* <img> Global CSS Reset
+    /* Standard */
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    /* Morden CSS Remedy */
+    img {
+        display: block;
+        vertical-aligh: middle;
+        max-width: 100%;
+        height: auto;
+    }
+
+* Don't use title attribute
+* The alt attribute is required.
+* Sometimes the alt attribute should be empty.
+* Use the alt text decision tree.
+
+* Optional <img> ARIA Roles
+    1. Button
+    2. Checkbox
+    3. Link
+    4. Menuitem
+    5. And so on

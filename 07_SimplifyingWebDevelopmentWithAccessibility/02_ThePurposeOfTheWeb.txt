@@ -1,0 +1,6 @@
+* Accessibility - The core promise of the web
+
+* HTML is a declarative coding language. It describes the content without saying anything about how a user agent should parse it.
+
+* Declarative Tags - Sandardized by the World Wide Web Consortium (W3C)
+* USe HTML as intendedget accessibility right out of the box.

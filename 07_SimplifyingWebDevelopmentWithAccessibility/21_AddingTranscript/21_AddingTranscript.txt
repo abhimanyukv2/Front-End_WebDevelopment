@@ -1,0 +1,15 @@
+* Transcript for Video and Audio
+    1. Make information accessible to antone through text
+    2. Make information searchable, copyable, and auto-translatable
+    3. Make information indexable for search engines
+
+* How do I create a transcript?
+* How do I add it to my site without it taking up the entire page?
+
+* The beast transcript are transcript written by a professional service.
+* As an alternative, online video services, including YouTube, auto-generate, transcript for uploaded videos.
+* Auto-generated transcript often require a lot of editing before publication.
+
+* Two Options
+    1. Publish the entire transcript as is.
+    2. Partially hide the transcript to save space.

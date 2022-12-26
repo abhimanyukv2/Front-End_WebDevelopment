@@ -1,0 +1,10 @@
+* Website are communication tools.
+* Website often display a lot of information.
+
+* Scanning Patterns
+    1. Stop at heading and other 'breaking' elements
+    2. Scan past blocks of text
+    3. Heading hierarchies
+    4. Sidebar blindness
+
+* HTML is built for hierarchical content!

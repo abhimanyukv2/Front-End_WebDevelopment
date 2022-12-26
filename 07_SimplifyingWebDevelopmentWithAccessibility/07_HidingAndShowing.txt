@@ -1,0 +1,5 @@
+* Ideal Scenario
+    1. Visual browser shows only buttons
+        social media buttons
+    2. Screen reader reads out hidden text
+    3. Search engines index hidden text and link

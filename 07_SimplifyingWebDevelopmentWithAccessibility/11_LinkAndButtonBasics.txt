@@ -1,0 +1,18 @@
+* Link and Button Pseudo Classes
+    1. :hover - The user hovers a pointing device (usually a mouse) over the item
+    2. :active - The item is activated by the user clicking or selecting it.
+    3. :focus - element currently has focus (is selected)
+    4. :focus-visible - The element  has focus and should be visible focused
+
+* Link-Specific Pseudo Classes
+    1. :link - The link target has not yet been visisted.
+    2. :visited - The link target has been visited.
+    3. :local-link - The absolute URL of the current page and link target match.
+
+* We often choose between a link and a button based on their looks
+* We should choose based on their function
+
+* Is It a Link or a Button?
+    It's a link. <-(Yes)<- IS its function navigation ->(No)->It's a button. 
+
+* Using the right element at the right item provides the right tools and accessibility

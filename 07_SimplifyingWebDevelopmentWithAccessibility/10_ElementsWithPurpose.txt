@@ -1,0 +1,13 @@
+* Elements with Built-In Purpose
+    1. <nav> is for navigation
+    2. <table> is for table
+    3. <form> is for forms
+    4. <ul> and <ol> are for unordered and ordered lists
+    5. <select> is for selecting things
+    6. <input> is for inputing things
+    7. <button> is for buttons
+    8. <link> is for links
+
+* For almost any type of data or interaction, there is a dedicated HTML element
+* That includes not-so-commonly used features like sliding range selectors, and so on
+* Morden browsers have built-in date pickers

@@ -1,0 +1,14 @@
+* Common Misconception - Accessibility means boring design and clunky interfaces.
+
+* Color Contrast 
+    WCAG Recommendations - Backgroung to text color contrast ratio
+        1. Small text (23px or less): 4.5
+        2. Small bold text (17px or less): 4.5
+        3. Large text (24px or more): 3
+    
+    * webaim.org/resources/contrastchecker
+    * color.adobe.com/create/color-accessibility
+
+* Color Blindness
+    1. Up to 8% of the male population are red-green color blind
+    2. There are several other types of color blindness, some of which primarily affect the female population

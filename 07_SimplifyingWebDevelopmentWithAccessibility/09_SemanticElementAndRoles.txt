@@ -1,0 +1,10 @@
+* HTML secmantic elements help desscribe different types of content
+* Secmntic elements have implicit roles desribing their role in the document
+
+    Element     Role            Landmark
+1.  <header>    banner          banner
+2.  <div>       -               -
+3.  <aisde>     comlementary    complementary
+4.  <main>      main            main
+5.  <article>   article         -
+6.  <footer>    contentinfo     contentinfo
