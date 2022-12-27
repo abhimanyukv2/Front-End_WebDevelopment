@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useReducer } from 'react';
 
 const [firstCity, second] = ["Tokyo", "Tahoe City", "Bend"];
 console.log(firstCity)
@@ -15,11 +15,13 @@ function App({ library }) {
   }, [emotion, secondary]);
 
   useEffect(() => {
-    console.log(`'It's ${secondary} around here!`)
+    console.log(`'It's ${secondary} around here!`);
   })
+
+  const [checked, setChecked] = useReducer((checked) => !checked, false);
   
   return (
-    <div className="App">
+    <><div className="App">
       <h1>Hello from {library}</h1>
       <h1>Current emotion is {emotion}</h1>
       <button onClick={(() => setEmotion("sad"))}>Sad</button>
@@ -27,6 +29,10 @@ function App({ library }) {
       <h2>Current Secondary emotattion is {secondary}.</h2>
       <button onClick={(() => setSecondary("greatful"))}>Greatful</button>
     </div>
+    <div className='App'>
+      <input type="checkbox" value={checked} onChange={setChecked} />
+      <label>{checked ? "Checked" : "not checked"}</label>
+    </div></>
   );
 }
 
