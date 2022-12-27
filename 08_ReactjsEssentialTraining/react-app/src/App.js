@@ -21,7 +21,7 @@ function App({ library }) {
   const [checked, setChecked] = useReducer((checked) => !checked, false);
 
   const txtTitle = useRef();
-  const hexColor = useRef()
+  const hexColor = useRef();
   const submit = (e) => {
     e.preventDefault();
     const title = txtTitle.current.value;
@@ -29,6 +29,15 @@ function App({ library }) {
     alert(`${title}, ${color}`);
     txtTitle.current.value = "";
     hexColor.current.value = "";
+  }
+
+  const [title, setTitle] = useState("");
+  const [color, setColor] = useState("#000000");
+  const eSubmit = (e) => {
+    e.preventDefault();
+    alert(`${title}, ${color}`);
+    setTitle("");
+    setColor("#000000")
   }
   
   return (
@@ -49,6 +58,13 @@ function App({ library }) {
         <input ref={txtTitle} type="text" placeholder='color title ...' />
         <input ref={hexColor} type='color' />
         <button>Add</button>
+      </form>
+    </div>
+    <div>
+      <form onSubmit={eSubmit}>
+        <input value={title} onChange={(event) => setTitle(event.target.value) } type="text" placeholder='color title...' />
+        <input value={color} type="color" onChange={(event) => setColor(event.target.value)} />
+        <button>ADD</button>
       </form>
     </div>
     </>
