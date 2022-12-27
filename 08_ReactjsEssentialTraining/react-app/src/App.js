@@ -6,6 +6,14 @@ const [firstCity, second] = ["Tokyo", "Tahoe City", "Bend"];
 console.log(firstCity)
 console.log(second)
 
+function useInput(initialValue) {
+  const [value, setValue] = useState(useInput);
+  return [
+    {value, onChange: (e) => setValue(e.target.value)},
+    () => setValue(initialValue)
+  ];
+}
+
 function App({ library }) {
   const [emotion, setEmotion] = useState("happy");
   const [secondary, setSecondary] = useState("tired")
@@ -39,7 +47,16 @@ function App({ library }) {
     setTitle("");
     setColor("#000000")
   }
-  
+
+  const [titleProps, resetTitle] = useInput("");
+  const [colorProps, resetColor] = useState("#000000");
+  const titleSubmit = (e) => {
+    e.preventDefault();
+    alert(`${titleProps.value}, ${colorProps.value}`);
+    resetTitle();
+    resetColor();
+  }
+
   return (
     <><div className="App">
       <h1>Hello from {library}</h1>
@@ -65,6 +82,13 @@ function App({ library }) {
         <input value={title} onChange={(event) => setTitle(event.target.value) } type="text" placeholder='color title...' />
         <input value={color} type="color" onChange={(event) => setColor(event.target.value)} />
         <button>ADD</button>
+      </form>
+    </div>
+    <div>
+      <form onSubmit={titleSubmit}>
+        <input {...titleProps} type="text" placeholder='color title...' />
+        <input {...colorProps} type="color" />
+        <button>Add</button>
       </form>
     </div>
     </>
