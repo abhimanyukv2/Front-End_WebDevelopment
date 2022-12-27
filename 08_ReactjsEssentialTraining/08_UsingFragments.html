@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <title>React *</title>
+</head>
+<body>
+    <div id="root"></div>
+    <h1>Getting Started with React</h1>
+    <script type="text/babel">
+        function Header(props) {
+            console.log(props);
+            return (
+                <header>
+                    <h1>{props.name}'s Kitchen</h1>
+                </header>
+            );
+        }
+        function Main(props) {
+            return (
+                <section>
+                    <img height={200} src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A Pizza"/>
+                    <ul>
+                        {props.dishes.map((dish, id) => (
+                            <li key={id}>{dish.title}</li>
+                        ))}
+                    </ul>
+                </section>
+            );
+        }
+        function Footer(props) {
+            return (
+                <footer>
+                    <p>Copyright {props.year}</p>
+                </footer>
+            )
+        }
+        const dishes = [
+            "Black Bean Soup",
+            "Macaroni and Cheese",
+            "Salmmon with Potatoes",
+            "Pizza"
+        ];
+        const dishObbjects = dishes.map((dish, i) => ({
+            id: i,
+            title: dish
+        }))
+        function App() {
+            return (
+                <React.Fragment>
+                    <Header name="Cindy" />
+                    <Main adjective="Amazing" dishes={dishObbjects} />
+                    <Footer year={new Date().getFullYear()} />
+                </React.Fragment>
+            )
+        }
+        ReactDOM.render(
+            <div>
+                <App />
+            </div>,
+            document.getElementById("root")
+        );
+    </script>
+</body>
+</html>
