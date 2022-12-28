@@ -40,6 +40,22 @@ const opts = {
   body: JSON.stringify({ query })
 };
 
+const tahoe_peaks = [
+  {name: "Freel", elevation: 10891},
+  {name: "Monument", elevation: 10067},
+  {name: "Pyramid", elevation: 9987},
+  {name: "Tallac", elevation: 9735},
+]
+
+function List({ data, renderItem, renderEmpty}) {
+  return !data.length ? renderEmpty
+  : <ul>
+      {data.map((item) => (
+        <li key={item.name}>{renderItem(item)}</li>
+      ))}
+    </ul>
+}
+
 function Lift({ name, elevationGain, status }) {
   return (
     <div>
@@ -162,6 +178,13 @@ function App({ library }) {
       {data.data.allLifts.map((lift) => (
         <Lift name={lift.name} elevationGain={lift.elevationGain} status={lift.status} />
       ))}
+    </div>
+    <div className='App'>
+      <List data={tahoe_peaks} renderEmpty={<p>This lit is empty</p>} renderItem={(item) => (
+        <>
+          {item.name} - {item.elevation} ft.
+        </>
+      )} />
     </div>
     </>
   );
