@@ -14,6 +14,16 @@ function useInput(initialValue) {
   ];
 }
 
+function GithubUser({name, public_repos, avatar}) {
+  return (
+    <div>
+      <h1>{name}</h1>
+      <p>{public_repos}</p>
+      <img src={avatar} height={150} alt="" />
+    </div>
+  )
+}
+
 function App({ library }) {
   const [emotion, setEmotion] = useState("happy");
   const [secondary, setSecondary] = useState("tired")
@@ -60,7 +70,7 @@ function App({ library }) {
   useEffect(() => {
     fetch(`https://api.github.com/users/abhimanyukv2`).then((response) => response.json()).then(setData);
     }, []);
-  if (data) return (<pre>{JSON.stringify(data, null, 2)}</pre>);
+  if (data) return <GithubUser name={data.name} public_repos={data.public_repos} avatar={data.avatar_url} />;
 
   return (
     <><div className="App">
