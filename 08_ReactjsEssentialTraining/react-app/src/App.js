@@ -19,7 +19,7 @@ function GithubUser({name, public_repos, avatar}) {
     <div>
       <h1>{name}</h1>
       <p>{public_repos}</p>
-      <img src={avatar} height={150} alt="" />
+      <img src={avatar} height={150} alt={name} />
     </div>
   )
 }
@@ -67,10 +67,22 @@ function App({ library }) {
     resetColor();
   }
   const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(false);
+
   useEffect(() => {
-    fetch(`https://api.github.com/users/abhimanyukv2`).then((response) => response.json()).then(setData);
+    setLoading(true);
+    fetch(
+      `https://api.github.com/users/abhimanyukv2
+    `)
+      .then((response) => response.json())
+      .then(setData)
+      .then(() => setLoading(false))
+      .catch(setError);
     }, []);
-  if (data) return <GithubUser name={data.name} public_repos={data.public_repos} avatar={data.avatar_url} />;
+  if (loading) return <h1>Loading...</h1>;
+  if (error) return <pre>{JSON.stringify(error)}</pre>;
+  if (!data) return null;
 
   return (
     <><div className="App">
@@ -107,7 +119,7 @@ function App({ library }) {
       </form>
     </div>
     <div className='App'>
-      {/* <h1>data is {data}</h1> */}
+    <GithubUser name={data.name} public_repos={data.public_repos} avatar={data.avatar_url} />
     </div>
     </>
   );
