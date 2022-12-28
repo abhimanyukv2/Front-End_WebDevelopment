@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect, useReducer, useRef } from 'react';
+import { Link } from "react-router-dom";
 
 const [firstCity, second] = ["Tokyo", "Tahoe City", "Bend"];
 console.log(firstCity)
@@ -68,6 +69,11 @@ function Lift({ name, elevationGain, status }) {
 function Home() {
   return (
     <div>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
       <h1>My Website</h1>
     </div>
   )
@@ -76,6 +82,11 @@ function Home() {
 export function About() {
   return (
     <div>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
       <h1>About Us</h1>
     </div>
   )
@@ -84,6 +95,11 @@ export function About() {
 export function Contact() {
   return (
     <div>
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
       <h1>Contact Us</h1>
     </div>
   )
@@ -212,6 +228,11 @@ export function App({ library }) {
     </div>
     <div className='App'>
       <Home />
+      <nav>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </nav>
     </div>
     </>
   );
