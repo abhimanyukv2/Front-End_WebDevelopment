@@ -73,7 +73,7 @@ function Home() {
   )
 }
 
-function About() {
+export function About() {
   return (
     <div>
       <h1>About Us</h1>
@@ -81,7 +81,7 @@ function About() {
   )
 }
 
-function Contct() {
+export function Contact() {
   return (
     <div>
       <h1>Contact Us</h1>
@@ -89,7 +89,7 @@ function Contct() {
   )
 }
 
-function App({ library }) {
+export function App({ library }) {
   const [emotion, setEmotion] = useState("happy");
   const [secondary, setSecondary] = useState("tired")
 
@@ -217,4 +217,4 @@ function App({ library }) {
   );
 }
 
-export default App;
+// export default App;
