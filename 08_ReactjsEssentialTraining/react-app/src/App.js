@@ -7,7 +7,7 @@ console.log(firstCity)
 console.log(second)
 
 function useInput(initialValue) {
-  const [value, setValue] = useState(useInput);
+  const [value, setValue] = useState(initialValue);
   return [
     {value, onChange: (e) => setValue(e.target.value)},
     () => setValue(initialValue)
@@ -56,6 +56,11 @@ function App({ library }) {
     resetTitle();
     resetColor();
   }
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    fetch(`https://api.github.com/users/abhimanyukv2`).then((response) => response.json()).then(setData);
+    }, []);
+  if (data) return (<pre>{JSON.stringify(data, null, 2)}</pre>);
 
   return (
     <><div className="App">
@@ -90,6 +95,9 @@ function App({ library }) {
         <input {...colorProps} type="color" />
         <button>Add</button>
       </form>
+    </div>
+    <div className='App'>
+      {/* <h1>data is {data}</h1> */}
     </div>
     </>
   );
