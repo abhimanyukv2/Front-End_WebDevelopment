@@ -24,6 +24,31 @@ function GithubUser({name, public_repos, avatar}) {
   )
 }
 
+const query = `
+query {
+  allLifts {
+    name
+    elevationGain
+    status
+  }
+}
+`;
+
+const opts = {
+  method: "POST",
+  headers:{"Content-Type": "application/json"},
+  body: JSON.stringify({ query })
+};
+
+function Lift({ name, elevationGain, status }) {
+  return (
+    <div>
+      <h1>{name}</h1>
+      <p>{elevationGain} {status}</p>
+    </div>
+  )
+};
+
 function App({ library }) {
   const [emotion, setEmotion] = useState("happy");
   const [secondary, setSecondary] = useState("tired")
@@ -70,16 +95,28 @@ function App({ library }) {
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
 
+  // useEffect(() => {
+  //   setLoading(true);
+  //   fetch(
+  //     `https://api.github.com/users/abhimanyukv2
+  //   `)
+  //     .then((response) => response.json())
+  //     .then(setData)
+  //     .then(() => setLoading(false))
+  //     .catch(setError);
+  //   }, []);
+  
   useEffect(() => {
     setLoading(true);
     fetch(
-      `https://api.github.com/users/abhimanyukv2
-    `)
-      .then((response) => response.json())
-      .then(setData)
-      .then(() => setLoading(false))
-      .catch(setError);
-    }, []);
+      `http://snowtooth.moonhighway.com/`, opts
+    )
+    .then((response) => response.json())
+    .then(setData)
+    .then(() => setLoading(false))
+    .catch(setError);
+  }, [])
+
   if (loading) return <h1>Loading...</h1>;
   if (error) return <pre>{JSON.stringify(error)}</pre>;
   if (!data) return null;
@@ -120,6 +157,11 @@ function App({ library }) {
     </div>
     <div className='App'>
     <GithubUser name={data.name} public_repos={data.public_repos} avatar={data.avatar_url} />
+    </div>
+    <div className='App'>
+      {data.data.allLifts.map((lift) => (
+        <Lift name={lift.name} elevationGain={lift.elevationGain} status={lift.status} />
+      ))}
     </div>
     </>
   );
